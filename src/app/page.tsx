@@ -1,5 +1,6 @@
 import FeaturedCoursesSection from "@/components/FeaturedCoursesSection";
 import HeroSection from "@/components/HeroSection";
+import WhyChooseUsSection from "@/components/WhyChooseUsSection";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       {/* <h1 className="text-2xl text-center">Welcome to Music Academy Project</h1> */}
       <HeroSection/>
       <FeaturedCoursesSection/>
+      <WhyChooseUsSection/>
     </main>
   );
 }
