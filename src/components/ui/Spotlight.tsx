@@ -1,6 +1,6 @@
 //Form Aceternity UI
 import React from "react";
-import { cn } from "../../lib/utlis";
+import { cn } from "../../lib/utils";
 
 type SpotlightProps = {
   className?: string;
