@@ -1,3 +1,4 @@
+import DisplayInstructors from "@/components/DisplayInstructorsSection";
 import FeaturedCoursesSection from "@/components/FeaturedCoursesSection";
 import HeroSection from "@/components/HeroSection";
 import TestimonialsCardSection from "@/components/TestimonialCardSection";
@@ -13,6 +14,7 @@ export default function Home() {
       <WhyChooseUsSection/>
       <TestimonialsCardSection/>
       <UpcommingWebinarsSection/>
+      <DisplayInstructors/>
     </main>
   );
 }
