@@ -1,5 +1,6 @@
 import DisplayInstructors from "@/components/DisplayInstructorsSection";
 import FeaturedCoursesSection from "@/components/FeaturedCoursesSection";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import TestimonialsCardSection from "@/components/TestimonialCardSection";
 import UpcommingWebinarsSection from "@/components/UpcommingWebinarsSection";
@@ -15,6 +16,7 @@ export default function Home() {
       <TestimonialsCardSection/>
       <UpcommingWebinarsSection/>
       <DisplayInstructors/>
+      <Footer/>
     </main>
   );
 }
